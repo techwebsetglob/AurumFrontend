@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 z-50 w-full px-6 py-4 lg:px-20 transition-all duration-300 glass-nav">
       <div className="mx-auto flex max-w-[1440px] items-center justify-between">
-        <div className="flex items-center gap-4 md:gap-12">
-          {/* Mobile Menu Button */}
+        <div className="flex items-center gap-4 md:gap-12 w-full lg:w-auto justify-between lg:justify-start">
+          {/* Mobile Menu Button - Left aligned on mobile */}
           <button 
-            className="lg:hidden text-primary focus:outline-none"
+            className="lg:hidden text-primary focus:outline-none z-50 relative"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <span className="material-symbols-outlined text-3xl">
@@ -17,7 +17,8 @@ const Navbar = () => {
             </span>
           </button>
 
-          <div className="flex items-center gap-2 text-primary">
+          {/* Logo - Centered on mobile, absolute positioned */}
+          <div className="flex items-center gap-2 text-primary lg:relative lg:translate-x-0 absolute left-1/2 -translate-x-1/2 lg:left-auto">
             <span className="material-symbols-outlined text-2xl md:text-3xl">diamond</span>
             <h2 className="font-serif text-xl md:text-2xl font-bold tracking-widest text-primary shimmer-gold scroll-reveal active">AURUM</h2>
           </div>
@@ -30,7 +31,8 @@ const Navbar = () => {
           </nav>
         </div>
 
-        <div className="flex items-center gap-4 md:gap-6">
+        {/* Right side icons - Hidden on mobile if needed, or adjust spacing */}
+        <div className="flex items-center gap-4 md:gap-6 z-50 relative">
           <div className="relative hidden xl:block">
             <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-primary/70 text-sm">search</span>
             <input className="h-10 w-48 rounded-full border border-primary/20 bg-black/60 pl-10 text-xs text-white placeholder-primary/50 focus:border-primary focus:ring-1 focus:ring-primary transition-all" placeholder="Search Masterpieces" type="text" />
@@ -47,16 +49,17 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Dropdown */}
+      {/* Mobile Menu Dropdown - Full Screen Overlay */}
       <div 
-        className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMobileMenuOpen ? 'max-h-64 opacity-100 mt-4 border-t border-primary/20 pt-4' : 'max-h-0 opacity-0'}`}
+        className={`lg:hidden fixed inset-0 top-0 pt-24 bg-black/95 backdrop-blur-xl transition-all duration-400 ease-in-out z-40 ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
       >
-        <nav className="flex flex-col gap-4 text-center">
-          <a className="text-xs font-bold uppercase tracking-[0.2em] text-slate-100/90 hover:text-primary transition-colors" href="#">Collections</a>
-          <a className="text-xs font-bold uppercase tracking-[0.2em] text-slate-100/90 hover:text-primary transition-colors" href="#">Bespoke</a>
-          <a className="text-xs font-bold uppercase tracking-[0.2em] text-slate-100/90 hover:text-primary transition-colors" href="#">Heritage</a>
-          <a className="text-xs font-bold uppercase tracking-[0.2em] text-slate-100/90 hover:text-primary transition-colors" href="#">High Jewelry</a>
-          <a className="text-xs font-bold uppercase tracking-[0.2em] text-primary mt-2" href="#">Concierge</a>
+        <nav className="flex flex-col items-center justify-center h-full pb-32 gap-8 text-center">
+          <a className="text-sm font-bold uppercase tracking-[0.3em] text-slate-100/90 hover:text-primary transition-colors hover:scale-110 transform" href="#">Collections</a>
+          <a className="text-sm font-bold uppercase tracking-[0.3em] text-slate-100/90 hover:text-primary transition-colors hover:scale-110 transform" href="#">Bespoke</a>
+          <a className="text-sm font-bold uppercase tracking-[0.3em] text-slate-100/90 hover:text-primary transition-colors hover:scale-110 transform" href="#">Heritage</a>
+          <a className="text-sm font-bold uppercase tracking-[0.3em] text-slate-100/90 hover:text-primary transition-colors hover:scale-110 transform" href="#">High Jewelry</a>
+          <div className="w-12 h-[1px] bg-primary/30 my-4"></div>
+          <a className="text-sm font-bold uppercase tracking-[0.3em] text-primary" href="#">Concierge</a>
         </nav>
       </div>
     </header>

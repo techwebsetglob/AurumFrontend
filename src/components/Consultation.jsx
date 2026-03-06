@@ -26,7 +26,7 @@ const Consultation = () => {
             </div>
           </div>
           <div className="scroll-reveal stagger-2">
-            <div className="glass-card-premium p-10 rounded-xl">
+            <div className="glass-card-premium p-6 md:p-10 rounded-xl">
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="flex flex-col gap-2">

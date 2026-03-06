@@ -11,7 +11,7 @@ const Gallery = () => {
           </div>
           <a className="text-[10px] md:text-sm font-bold text-primary border-b border-primary/30 pb-1 hover:border-primary transition-all self-start md:self-auto" href="#">View All Collections</a>
         </div>
-        <div className="flex gap-4 md:gap-8 overflow-x-auto pb-8 scrollbar-hide snap-x snap-mandatory px-4 md:px-0 -mx-6 md:mx-0 pt-4">
+        <div className="flex gap-4 md:gap-8 overflow-x-auto pb-8 scrollbar-hide snap-x snap-mandatory px-6 md:px-0 -mx-6 md:mx-0 pt-4">
           <div className="group flex min-w-[75vw] sm:min-w-[280px] flex-1 flex-col gap-4 md:gap-6 lg:min-w-[300px] scroll-reveal stagger-1 tilt-card snap-center md:snap-align-none">
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-xl transition-all duration-700 hover:scale-[1.02]">
               <img className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Close up of a luxury emerald ring on a dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAi9rioeRrBbsEttDg8Tr4qAE-qAw9yLLniR7GNfMRnOq5ZMlnmoi60eG7eDldjhpkL5rBtMD2BhavliqXvcGPb2aaJEYxC9THpOUZm7DZ4KnpZHU0ueuZufn-2fQ-sg7aekVKO4Zkz4-oZ-sLplUJd3igHZMiCLoo2vKG0fZNJeo6tq0JvsYoBNxoXKkCO1tpCs94ddS3gBWKz5M8Yep6cV-58sYR_FWrnGqXssLclxJKdduhfosE-MWEPnpuQ72g7SZNF66-_w4B" />

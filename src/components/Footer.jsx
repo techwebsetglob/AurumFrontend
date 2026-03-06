@@ -8,13 +8,13 @@ const Footer = () => {
           <span className="material-symbols-outlined text-xl md:text-2xl">diamond</span>
           <h2 className="font-serif text-lg md:text-xl font-bold tracking-widest text-primary shimmer-gold scroll-reveal">AURUM</h2>
         </div>
-        <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-[10px] font-bold uppercase tracking-widest text-slate-100/40">
+        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4 sm:gap-8 text-[10px] sm:text-xs font-bold uppercase tracking-widest text-slate-100/40 mt-6 md:mt-0">
           <a className="hover:text-primary transition-colors" href="#">Privacy</a>
           <a className="hover:text-primary transition-colors" href="#">Terms</a>
           <a className="hover:text-primary transition-colors" href="#">Boutiques</a>
           <a className="hover:text-primary transition-colors" href="#">Press</a>
         </div>
-        <div className="flex gap-4">
+        <div className="flex gap-6 md:gap-4 mt-6 md:mt-0">
           <span className="material-symbols-outlined text-primary/60 cursor-pointer hover:text-primary text-xl">share</span>
           <span className="material-symbols-outlined text-primary/60 cursor-pointer hover:text-primary text-xl">language</span>
         </div>

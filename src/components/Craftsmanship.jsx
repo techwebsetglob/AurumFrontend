@@ -9,9 +9,9 @@ const Craftsmanship = () => {
             <div className="lg:w-1/2 scroll-reveal w-full">
               <div className="relative">
                 <img alt="Artisanal Process" className="w-full h-[400px] md:h-[700px] object-cover rounded-sm grayscale hover:grayscale-0 transition-all duration-1000" data-parallax-speed="0.05" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjoBAXXFu_9mF_67XxRHwiUAEa8DyCyvN5-cRoRfF80dny8bapn8DNZrom7QfeI5BDFeqSfxO7qllG-nFYcHxOLu64MPVfLGBNRQVr2oT61CC0br8HqcJWcSNAlKc7w8HrF2nujchuerA-Br87pQk-VVHFWREIAGwtqlRvJY_2lXFMSWlCXEXAZGCG51H8C2imw9Q9zkbAlJ0HqgFNc5lO9Q6WmEk3cCmQIMG13KoY2HNdBM98jFVNinItZd2-rwt2Q3jPJLvA_7H4" />
-                <div className="absolute -bottom-8 -right-4 md:-bottom-10 md:-right-10 w-52 md:w-64 h-auto md:h-80 glass-card-premium p-6 md:p-8 scroll-reveal stagger-2 animate-float">
-                  <span className="text-primary text-3xl md:text-4xl font-serif italic">1924</span>
-                  <p className="text-xs md:text-sm text-slate-100/60 mt-3 md:mt-4 uppercase tracking-widest leading-loose scroll-reveal">Born in Geneve, perfected over a century of silent dedication to the craft.</p>
+                <div className="absolute -bottom-8 right-0 md:-bottom-10 md:-right-10 w-48 sm:w-52 md:w-64 h-auto md:h-80 glass-card-premium p-4 md:p-8 scroll-reveal stagger-2 animate-float">
+                  <span className="text-primary text-2xl md:text-4xl font-serif italic">1924</span>
+                  <p className="text-[10px] md:text-sm text-slate-100/60 mt-2 md:mt-4 uppercase tracking-widest leading-relaxed md:leading-loose scroll-reveal">Born in Geneve, perfected over a century of silent dedication to the craft.</p>
                 </div>
               </div>
             </div>

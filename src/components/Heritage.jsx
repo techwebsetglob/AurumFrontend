@@ -10,7 +10,7 @@ const Heritage = () => {
         </div>
         <div className="relative">
           <div className="absolute left-1/2 top-0 h-full w-[2px] bg-gradient-to-b from-primary/10 via-primary/50 to-primary/10 -translate-x-1/2 shadow-[0_0_15px_rgba(212,175,127,0.3)] hidden md:block"></div>
-          <div className="space-y-16 md:space-y-0 relative">
+          <div className="space-y-12 md:space-y-0 relative">
             <div className="flex flex-col md:flex-row items-center md:justify-start w-full md:mb-24">
               <div className="w-full md:w-5/12 scroll-reveal stagger-1">
                 <div className="glass-card-premium p-6 md:p-8 rounded-xl relative">
@@ -25,7 +25,7 @@ const Heritage = () => {
             <div className="flex flex-col md:flex-row items-center md:justify-end w-full md:mb-24">
               <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-primary shadow-[0_0_15px_#D4AF7F] hidden md:block"></div>
               <div className="w-full md:w-5/12 scroll-reveal stagger-2">
-                <div className="glass-card-premium p-6 md:p-8 rounded-xl">
+                <div className="glass-card-premium p-6 md:p-8 rounded-xl md:text-right">
                   <span className="font-serif text-3xl md:text-4xl text-primary italic mb-4 block">2005</span>
                   <h4 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-widest scroll-reveal">Global Expansion</h4>
                   <p className="text-slate-100/60 leading-relaxed scroll-reveal">Opening of flagship boutiques in Paris, London, and New York, bringing the unique Swiss-gold aesthetic to the world stage. These years marked our rise to international acclaim, receiving multiple honors for design innovation in high jewelry.</p>
@@ -47,7 +47,7 @@ const Heritage = () => {
             <div className="flex flex-col md:flex-row items-center md:justify-end w-full">
               <div className="absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-primary shadow-[0_0_15px_#D4AF7F] hidden md:block"></div>
               <div className="w-full md:w-5/12 scroll-reveal stagger-3">
-                <div className="glass-card-premium p-6 md:p-8 rounded-xl border-primary/40">
+                <div className="glass-card-premium p-6 md:p-8 rounded-xl border-primary/40 md:text-right">
                   <span className="font-serif text-3xl md:text-4xl text-primary italic mb-4 block">2026</span>
                   <h4 className="text-xl font-bold text-slate-100 mb-2 uppercase tracking-widest scroll-reveal">The Future</h4>
                   <p className="text-slate-100/60 leading-relaxed scroll-reveal">Launching the 'Eternal Digital' collection, pioneering the fusion of blockchain-verified provenance with physical masterpiece jewelry. We continue our unwavering commitment to ethical sourcing while defining the future of digital-physical luxury.</p>

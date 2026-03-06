@@ -22,7 +22,7 @@ const CuratedSets = () => {
               <span className="material-symbols-outlined text-primary text-3xl opacity-0 group-hover:opacity-100 transition-opacity">arrow_right_alt</span>
             </div>
           </div>
-          <div className="glass-card-premium p-4 group scroll-reveal stagger-2 mt-12 md:mt-24 animate-float tilt-card">
+          <div className="glass-card-premium p-4 group scroll-reveal stagger-2 mt-8 md:mt-24 animate-float tilt-card">
             <div className="overflow-hidden rounded-lg">
               <img alt="The Celestial Collection" className="w-full aspect-video object-cover transition-transform duration-1000 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1CDQqg-qfOmuydZ-kh_0on-jGrZh4iV5tM3aME21qulQr9Qg1OztcQohIzqXPAsa_xZtHPaJdLnI-3oqBKlA9ToidO8HUabmZLkiYBWO673nB9EGFmhXjKeNMsWNxScZXPXv5v15ujdEpTCc8N2x3vimZRcGzzmEhdU-f1LE7SY2UbFrWfbzsh1oBL11iQ6DzjULp6527FL6i3gQ96cVawfoawmSHI4F8t7g5kc-J1pIPrBMktw8RrQAtTLDW7mQ12iA7ULTBWjSB" />
             </div>

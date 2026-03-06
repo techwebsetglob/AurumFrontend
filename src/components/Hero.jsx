@@ -22,18 +22,18 @@ const Hero = () => {
       <div className="relative z-40 flex flex-col items-center gap-8 px-6 text-center max-w-4xl mt-16 md:mt-0">
         <div className="flex flex-col gap-4">
           <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.4em] text-primary/80">Est. 1924 • Geneve</span>
-          <h1 className="shimmer-gold font-serif text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold leading-tight animate-fade-up">
-            Timeless <br /> <span className="italic">Radiance</span>
+          <h1 className="shimmer-gold font-serif text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold leading-tight animate-fade-up">
+            Timeless <br className="hidden sm:block" /> <span className="italic">Radiance</span>
           </h1>
           <p className="mx-auto max-w-xl text-base md:text-xl font-light leading-relaxed text-slate-100/90 scroll-reveal px-4" style={{ transitionDelay: '0.2s' }}>
             Experience the pinnacle of craftsmanship with our exclusive gold and diamond collection, forged in the heart of excellence.
           </p>
         </div>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 w-full sm:w-auto px-4">
-          <button className="btn-lux-primary group relative flex w-full sm:w-auto min-w-[240px] items-center justify-center rounded-full px-8 md:px-10 py-4 md:py-5 text-[10px] md:text-xs btn-text-lux uppercase text-black transition-all scroll-reveal" style={{ transitionDelay: '0.2s' }}>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full px-4 max-w-sm sm:max-w-none mx-auto">
+          <button className="btn-lux-primary group relative flex w-full sm:w-auto items-center justify-center rounded-full px-6 sm:px-10 py-4 sm:py-5 text-[10px] sm:text-xs btn-text-lux uppercase text-black transition-all scroll-reveal" style={{ transitionDelay: '0.2s' }}>
             <span>Explore Collection</span>
           </button>
-          <button className="btn-lux-secondary group flex w-full sm:w-auto min-w-[240px] items-center justify-center gap-3 rounded-full bg-white/5 px-8 md:px-10 py-4 md:py-5 text-[10px] md:text-xs btn-text-lux uppercase text-white backdrop-blur-md transition-all">
+          <button className="btn-lux-secondary group flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-white/5 px-6 sm:px-10 py-4 sm:py-5 text-[10px] sm:text-xs btn-text-lux uppercase text-white backdrop-blur-md transition-all">
             <span>Book Private Session</span>
             <span className="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
